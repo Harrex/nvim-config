@@ -2,6 +2,10 @@ vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>n', "<cmd>NvimTreeToggle<cr>")
 vim.keymap.set('n', '<leader>e', "<cmd>NvimTreeFocus<cr>")
 
+vim.keymap.set('n', '<leader>ff', "<cmd>Telescope find_files<cr>")
+vim.keymap.set('n', '<leader>fg', "<cmd>Telescope live_grep<cr>")
+
+
 -- Directional keys for Dvorak Layout
 vim.keymap.set('n', 'h', "h")
 vim.keymap.set('n', 't', "k")
@@ -24,3 +28,5 @@ vim.keymap.set('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<cr>', opts)
 vim.keymap.set('n', '<F2>', '<cmd>lua vim.lsp.buf.rename()<cr>', opts)
 vim.keymap.set({'n', 'x'}, '<F3>', '<cmd>lua vim.lsp.buf.format({async = true})<cr>', opts)
 vim.keymap.set('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
+
+
