@@ -24,3 +24,4 @@ lspconfig.rust_analyzer.setup {}
 lspconfig.cssls.setup {}
 lspconfig.emmet_ls.setup {}
 lspconfig.texlab.setup {}
+lspconfig.clangd.setup {}
