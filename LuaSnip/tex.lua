@@ -70,7 +70,7 @@ return {
         )
     ),
 
-    s({ trig = ";lf", snippetType = "autosnippet" },
+    s({ trig = ";lr", snippetType = "autosnippet" },
         fmt(
             [[
                 \left(<>\right)
@@ -79,6 +79,29 @@ return {
             { delimiters = "<>" }
         )
     ),
+
+    s({ trig = ";fl", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \lfloor <>\rfloor
+            ]],
+            { i(1) },
+            { delimiters = "<>" }
+        )
+    ),
+
+    s({ trig = ";cl", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \lceil <>\rceil
+            ]],
+            { i(1) },
+            { delimiters = "<>" }
+        )
+    ),
+
+
+
 
 
     s({ trig = ";bm", snippetType = "autosnippet" },
