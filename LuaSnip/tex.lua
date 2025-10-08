@@ -103,7 +103,7 @@ return {
         )
     ),
 
-    s({ trig = ";lf", snippetType = "autosnippet" },
+    s({ trig = ";lr", snippetType = "autosnippet" },
         fmt(
             [[
                 \left(<>\right)
@@ -132,7 +132,6 @@ return {
             { delimiters = "<>" }
         )
     ),
-
 
 
     s({ trig = ";bm", snippetType = "autosnippet" },
@@ -639,8 +638,9 @@ return {
             { delimiters = "<>" }
         )
     ),
+
     --------------------------
-    -- Capital Greek Letters--
+    -- MathBB Letters--
     --------------------------
     s({ trig = ":BA", snippetType = "autosnippet" },
         fmt(
@@ -877,7 +877,6 @@ return {
         )
     ),
 
-
     s({ trig = ":LR", snippetType = "autosnippet" },
         fmt(
             [[
@@ -885,7 +884,244 @@ return {
             ]],
             {},
             { delimiters = "<>" }
+    	)
+    ),
+            
+    --------------------------
+    -- MathCal Letters--
+    --------------------------
+    s({ trig = ":MA", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{A}
+            ]],
+            {},
+            { delimiters = "<>" }
         )
     ),
-
+    s({ trig = ":MB", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{B}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MC", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{C}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MD", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{D}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":ME", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{E}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MF", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{F}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MG", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{G}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MH", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{H}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MI", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{I}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MJ", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{J}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MK", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{K}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":ML", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{L}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MM", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{M}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MN", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{N}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MO", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{O}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MP", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{P}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MQ", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{Q}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MR", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{R}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MS", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{S}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MT", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{T}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MU", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{U}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MV", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{V}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MW", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{W}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MX", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{X}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MY", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{Y}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ":MZ", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \mathcal{Z}
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
 }

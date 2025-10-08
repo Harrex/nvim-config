@@ -22,9 +22,9 @@ lspconfig.lua_ls.setup {}
 lspconfig.pyright.setup {}
 lspconfig.rust_analyzer.setup {}
 lspconfig.cssls.setup {}
+lspconfig.clangd.setup {}
 lspconfig.emmet_ls.setup {}
 lspconfig.texlab.setup {}
-
 -- lspconfig.asm_lsp.setup {
 --     settings = {
 --         command = "asm-lsp",
@@ -33,3 +33,4 @@ lspconfig.texlab.setup {}
 --         }
 --     }
 -- }
+lspconfig.clangd.setup {}
