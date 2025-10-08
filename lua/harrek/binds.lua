@@ -4,6 +4,8 @@ vim.keymap.set('n', '<leader>e', "<cmd>NvimTreeFocus<cr>")
 
 vim.keymap.set('n', '<leader>ff', "<cmd>Telescope find_files<cr>")
 vim.keymap.set('n', '<leader>fg', "<cmd>Telescope live_grep<cr>")
+vim.keymap.set('n', '<leader>fd', "<cmd>Telescope lsp_definitions<cr>")
+vim.keymap.set('n', '<leader>fw', "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>")
 vim.keymap.set('n', 'gr', "<cmd>Telescope lsp_references<cr>")
 
 vim.keymap.set('n', '<ESC>', "<cmd>noh<cr>")

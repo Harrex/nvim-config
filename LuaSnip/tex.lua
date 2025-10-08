@@ -9,8 +9,11 @@ return {
                 \usepackage{gensymb}
                 \usepackage{amsthm}
                 \usepackage{enumerate}
+                \usepackage{wasysym}
 
                 \newtheorem*{proof*}{Proof}
+                \newtheorem*{example*}{Example}
+                \newtheorem*{counter*}{Counter-Example}
                 \newtheorem{lemma}{Lemma}
                 \newtheorem{theorem}{Theorem}
 
@@ -20,6 +23,7 @@ return {
                 \begin{document}
                 \maketitle
                 \section*{Collaboration Statement}
+                All work is my own. I did not use external resources beyond the course materials or discuss aspects of this assignment with other students.
                 \pagebreak
                 \section*{<>}
                     <>
@@ -46,6 +50,35 @@ return {
                 \sum_{<>}^{<>}
             ]],
             { i(1), i(2) },
+            { delimiters = "<>" }
+        )
+    ),
+
+    s({ trig = ";li", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \lim_{<>\to\infty}
+            ]],
+            { i(1) },
+            { delimiters = "<>" }
+        )
+    ),
+    s({ trig = ";pd", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \prod_{<>}^{<>}
+            ]],
+            { i(1), i(2) },
+            { delimiters = "<>" }
+        )
+    ),
+
+    s({ trig = ";si", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \sum_{i=1}^{<>}
+            ]],
+            { i(1) },
             { delimiters = "<>" }
         )
     ),
@@ -79,6 +112,27 @@ return {
             { delimiters = "<>" }
         )
     ),
+
+    s({ trig = ";fl", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \lfloor <> \rfloor
+            ]],
+            { i(1) },
+            { delimiters = "<>" }
+        )
+    ),
+
+    s({ trig = ";cl", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \lceil <> \rceil
+            ]],
+            { i(1) },
+            { delimiters = "<>" }
+        )
+    ),
+
 
 
     s({ trig = ";bm", snippetType = "autosnippet" },
@@ -189,6 +243,16 @@ return {
         ]],
             { i(1) },
             { delimiters = "_-" }
+        )
+    ),
+
+    s({ trig = ";mvt", snippetType = "autosnippet" },
+        fmt(
+            [[
+            \exists \xi\ s.t.\ <>'(\xi) = \frac{<>(<>) - <>(c)}{<> - c},\ \forall c
+        ]],
+            { i(1), rep(1), i(2), rep(1), rep(2) },
+            { delimiters = "<>" }
         )
     ),
 
@@ -812,4 +876,16 @@ return {
             { delimiters = "<>" }
         )
     ),
+
+
+    s({ trig = ":LR", snippetType = "autosnippet" },
+        fmt(
+            [[
+                \Leftrightarrow
+            ]],
+            {},
+            { delimiters = "<>" }
+        )
+    ),
+
 }

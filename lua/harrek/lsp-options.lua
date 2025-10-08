@@ -24,3 +24,12 @@ lspconfig.rust_analyzer.setup {}
 lspconfig.cssls.setup {}
 lspconfig.emmet_ls.setup {}
 lspconfig.texlab.setup {}
+
+-- lspconfig.asm_lsp.setup {
+--     settings = {
+--         command = "asm-lsp",
+--         filetypes = {
+--             "asm", "s", "S"
+--         }
+--     }
+-- }
