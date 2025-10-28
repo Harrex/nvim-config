@@ -18,7 +18,7 @@ return {
                 \newtheorem{theorem}{Theorem}
 
                 \title{<>}
-                \author{Harrex Upston, u7925237}
+                \author{Hazel Upston, u7925237}
 
                 \begin{document}
                 \maketitle
