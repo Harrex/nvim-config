@@ -22,6 +22,14 @@ vim.keymap.set('v', 't', "k")
 vim.keymap.set('v', 'n', "j")
 vim.keymap.set('v', 's', "l")
 
+-- Window Controls
+vim.keymap.set('n', '<M-h>', "<C-w>h")
+vim.keymap.set('n', '<M-t>', "<C-w>k")
+vim.keymap.set('n', '<M-n>', "<C-w>j")
+vim.keymap.set('n', '<M-s>', "<C-w>l")
+vim.keymap.set('n', '<M-v>', "<C-w>v")
+vim.keymap.set('n', '<M-S>', "<C-w>s")
+
 -- Misc
 vim.keymap.set('n', '<C-n>', "n")
 vim.keymap.set('v', '<C-n>', "n")
