@@ -8,4 +8,4 @@ vim.opt.relativenumber = true
 vim.opt.signcolumn = 'yes'
 vim.opt.scrolloff = 8
 
-vim.cmd [[set title]]
+vim.opt.title = true

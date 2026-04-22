@@ -1,17 +1,7 @@
-local lualine = require('lualine')
--- Temporarily suppress Lualine notice
-local orig_notify = vim.notify
-vim.notify = function(msg, level, opts)
-    if msg:match("lualine") then
-        return
-    end
-    orig_notify(msg, level, opts)
-end
-
 require('lualine').setup {
     options = {
         icons_enabled = true,
-        theme = "base16",
+        theme = "iceberg_dark",
 
         section_separators = { left = '', right = '' },
         disabled_filetypes = {
