@@ -6,4 +6,3 @@ require("mason-lspconfig").setup({
         "pyright"
     }
 })
-
