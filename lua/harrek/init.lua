@@ -1,4 +1,5 @@
 require "harrek.lazy"
+
 require "harrek.binds"
 require "harrek.completion"
 require "harrek.lsp-options"
