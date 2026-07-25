@@ -1,0 +1,7 @@
+require "zari.lazy"
+require "zari.binds"
+require "zari.completion"
+require "zari.lsp-options"
+require "zari.mason"
+require "zari.options"
+require "zari.lualine"
