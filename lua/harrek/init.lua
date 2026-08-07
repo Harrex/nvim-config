@@ -1,8 +1,0 @@
-require "harrek.lazy"
-
-require "harrek.binds"
-require "harrek.completion"
-require "harrek.lsp-options"
-require "harrek.mason"
-require "harrek.options"
-require "harrek.lualine"
