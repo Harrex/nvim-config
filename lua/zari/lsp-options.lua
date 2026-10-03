@@ -24,5 +24,5 @@ vim.lsp.config('emmet_ls', {
 
 vim.lsp.enable({
     'lua_ls', 'pyright', 'rust_analyzer', 'cssls',
-    'clangd', 'emmet_ls', 'vtsls', 'texlab',
+    'clangd', 'emmet_ls', 'vtsls', 'texlab', 'kotlin-lsp'
 })
