@@ -4,7 +4,8 @@ return {
         require("conform").setup {
             formatters_by_ft = {
                 python = { "black" },
-                rust = { "rustfmt" }
+                rust = { "rustfmt" },
+                java = { "google-java-format" }
             },
             format_on_save = {
                 timeout_ms = 500,

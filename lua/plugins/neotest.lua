@@ -4,7 +4,7 @@ return {
         ft = "java",
         dependencies = {
             "mfussenegger/nvim-jdtls",
-            "mfussenegger/nvim-dap",           -- for the debugger
+            "mfussenegger/nvim-dap",           -- for debugging (optional)
             "rcarriga/nvim-dap-ui",            -- recommended
             "theHamsta/nvim-dap-virtual-text", -- recommended
         },
@@ -14,18 +14,16 @@ return {
         dependencies = {
             "nvim-neotest/nvim-nio",
             "nvim-lua/plenary.nvim",
-            "antoinemadec/FixCursorHold.nvim",
-            {
-                "nvim-treesitter/nvim-treesitter",
-                branch = "main"
-            }
+            "nvim-treesitter/nvim-treesitter",
         },
-        opts = {
-            adapters = {
-                ["neotest-java"] = {
-                    -- config here
+        config = function()
+            require("neotest").setup({
+                adapters = {
+                    require("neotest-java")({
+                        -- Optional configuration here
+                    }),
                 },
-            },
-        },
+            })
+        end,
     },
 }
